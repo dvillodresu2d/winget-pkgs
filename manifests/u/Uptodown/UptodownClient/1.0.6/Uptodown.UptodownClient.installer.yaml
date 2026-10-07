@@ -1,0 +1,19 @@
+# Created using wingetcreate 1.12.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: Uptodown.UptodownClient
+PackageVersion: 1.0.6
+MinimumOSVersion: 10.0.17763
+InstallerType: nullsoft
+Scope: user
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://download.uptodown.app/windows-client
+  InstallerSha256: A8F25E7F30971A085EED9F3441A44D523E210040F24257EF2694392F4BBFF0EC
+ManifestType: installer
+ManifestVersion: 1.6.0
